@@ -18,7 +18,7 @@ struct FacultadList: View {
                 }
             }
         } detail: {
-            Text("selecione la facultad")
+            Text("Selecione la facultad")
         }
         
     }

@@ -13,7 +13,7 @@ struct FacultadDetail: View {
     var body: some View {
         VStack {
             //Use MapView for iOS 16
-            MapView()
+            MapView(coordinate: facultad.locationCoordinates)
                 .frame(height: 300)
             CircleImage(image: facultad.image)
                 .offset(y: -130)
@@ -25,7 +25,7 @@ struct FacultadDetail: View {
                     Text("Universidad de Salamanca")
                         .font(.subheadline)
                     Spacer()
-                    Text("Salamanca")
+                    Text(facultad.city)
                         .font(.subheadline)
                 }
                 .font(.subheadline)
@@ -33,9 +33,10 @@ struct FacultadDetail: View {
                 
                 Divider()
                 
-                Text("")
-                    .font(.title2)
+                Text("Sobre la facultad:")
+                    .font(.subheadline)
                     .foregroundStyle(.gray)
+                Text(facultad.description)
             }
             .padding()
         }
