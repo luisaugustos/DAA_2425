@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,21 +30,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E88CA79B2CAFE605007132D9 /* Contador */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Contador;
-			sourceTree = "<group>";
-		};
-		E88CA7AC2CAFE606007132D9 /* ContadorTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ContadorTests;
-			sourceTree = "<group>";
-		};
-		E88CA7B62CAFE606007132D9 /* ContadorUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ContadorUITests;
-			sourceTree = "<group>";
-		};
+		E88CA79B2CAFE605007132D9 /* Contador */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Contador; sourceTree = "<group>"; };
+		E88CA7AC2CAFE606007132D9 /* ContadorTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ContadorTests; sourceTree = "<group>"; };
+		E88CA7B62CAFE606007132D9 /* ContadorUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ContadorUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +175,7 @@
 				};
 			};
 			buildConfigurationList = E88CA7942CAFE605007132D9 /* Build configuration list for PBXProject "Contador" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -195,7 +184,6 @@
 			);
 			mainGroup = E88CA7902CAFE605007132D9;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = E88CA79A2CAFE605007132D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
