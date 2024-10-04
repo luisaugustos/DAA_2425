@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Facultad de Filología",
+        "category": "Humanidades",
+        "city": "Salamanca",
+        "id": 2001,
+        "isFeatured": true,
+        "isFavorite": true,
+        "departments": [
+            {
+                "name": "Departamento de Lengua Española",
+                "courses": ["Sintaxis", "Morfología", "Historia de la Lengua Española"]
+            },
+            {
+                "name": "Departamento de Lenguas Modernas",
+                "courses": ["Francés", "Inglés", "Alemán"]
+            }
+        ],
+        "coordinates": {
+            "longitude": -5.66928,
+            "latitude": 40.96012
+        },
+        "description": "La Facultad de Filología ofrece estudios en lenguas clásicas y modernas, así como investigación avanzada en literatura y lingüística.",
+        "imageName": "facultad_filologia"
+    },
+    {
+        "name": "Facultad de Derecho",
+        "category": "Ciencias Sociales",
+        "city": "Salamanca",
+        "id": 2002,
+        "isFeatured": true,
+        "isFavorite": false,
+        "departments": [
+            {
+                "name": "Departamento de Derecho Penal",
+                "courses": ["Derecho Penal I", "Criminología", "Derechos Humanos"]
+            },
+            {
+                "name": "Departamento de Derecho Civil",
+                "courses": ["Derecho de Familia", "Derecho Contractual", "Derecho Sucesorio"]
+            }
+        ],
+        "coordinates": {
+            "longitude": -5.66889,
+            "latitude": 40.96115
+        },
+        "description": "La Facultad de Derecho es una de las más antiguas de la Universidad y cuenta con una larga tradición en la formación de juristas.",
+        "imageName": "facultad_derecho"
+    },
+    {
+        "name": "Facultad de Ciencias",
+        "category": "Ciencias",
+        "city": "Salamanca",
+        "id": 2003,
+        "isFeatured": false,
+        "isFavorite": true,
+        "departments": [
+            {
+                "name": "Departamento de Biología",
+                "courses": ["Biología Molecular", "Genética", "Ecología"]
+            },
+            {
+                "name": "Departamento de Física",
+                "courses": ["Física Cuántica", "Física Experimental", "Astrofísica"]
+            }
+        ],
+        "coordinates": {
+            "longitude": -5.66543,
+            "latitude": 40.96178
+        },
+        "description": "La Facultad de Ciencias ofrece grados en biología, física, química, y ciencias ambientales, con una fuerte orientación hacia la investigación.",
+        "imageName": "facultad_ciencias"
+    }
+]
