@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,21 +30,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E88CA6E12CAFD153007132D9 /* FCiencias */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FCiencias;
-			sourceTree = "<group>";
-		};
-		E88CA6F22CAFD156007132D9 /* FCienciasTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FCienciasTests;
-			sourceTree = "<group>";
-		};
-		E88CA6FC2CAFD156007132D9 /* FCienciasUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FCienciasUITests;
-			sourceTree = "<group>";
-		};
+		E88CA6E12CAFD153007132D9 /* FCiencias */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = FCiencias; sourceTree = "<group>"; };
+		E88CA6F22CAFD156007132D9 /* FCienciasTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = FCienciasTests; sourceTree = "<group>"; };
+		E88CA6FC2CAFD156007132D9 /* FCienciasUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = FCienciasUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +175,7 @@
 				};
 			};
 			buildConfigurationList = E88CA6DA2CAFD153007132D9 /* Build configuration list for PBXProject "FCiencias" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -195,7 +184,6 @@
 			);
 			mainGroup = E88CA6D62CAFD153007132D9;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = E88CA6E02CAFD153007132D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
