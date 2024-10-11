@@ -14,6 +14,7 @@ struct Facultad: Codable, Hashable, Identifiable {
     var name: String
     var city: String
     var description: String
+    var isFavorite: Bool
     
     private var imageName: String
     var image: Image {

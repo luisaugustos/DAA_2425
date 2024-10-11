@@ -5,7 +5,7 @@
         "city": "Salamanca",
         "id": 2001,
         "isFeatured": true,
-        "isFavorite": true,
+        "isFavorite": false,
         "departments": [
             {
                 "name": "Departamento de Lengua Española",
