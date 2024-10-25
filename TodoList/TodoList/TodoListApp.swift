@@ -29,4 +29,8 @@ struct TodoListApp: App {
         }
         .modelContainer(sharedModelContainer)
     }
+    
+    init() {
+        print(URL.applicationSupportDirectory.path(percentEncoded: false))
+    }
 }
