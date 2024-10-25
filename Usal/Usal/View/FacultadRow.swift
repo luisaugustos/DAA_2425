@@ -16,13 +16,19 @@ struct FacultadRow: View {
                 .resizable()
                 .frame(width: 60, height: 60)
             Text(facultad.name)
+            
             Spacer()
+            
+            if facultad.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundStyle(.yellow)
+            }
         }
     }
 }
 
 struct FacultadRow_Previews: PreviewProvider {
     static var previews: some View {
-        FacultadRow(facultad: facultades[1])
+        FacultadRow(facultad: ModelData().facultades[0])
     }
 }

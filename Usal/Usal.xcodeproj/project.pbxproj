@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E894CA782CB889B6001EBB8C /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E894CA772CB889B6001EBB8C /* FavoriteButton.swift */; };
 		FB7BAB7A2CAFFA7500972421 /* UsalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7BAB792CAFFA7500972421 /* UsalApp.swift */; };
 		FB7BAB7E2CAFFA7600972421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7BAB7D2CAFFA7600972421 /* Assets.xcassets */; };
 		FB7BAB812CAFFA7600972421 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7BAB802CAFFA7600972421 /* Preview Assets.xcassets */; };
@@ -14,7 +15,6 @@
 		FB7BAB952CAFFA7600972421 /* UsalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7BAB942CAFFA7600972421 /* UsalUITests.swift */; };
 		FB7BAB972CAFFA7600972421 /* UsalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7BAB962CAFFA7600972421 /* UsalUITestsLaunchTests.swift */; };
 		FB7BABA62CAFFAC800972421 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7BABA32CAFFAC800972421 /* CircleImage.swift */; };
-		FB7BABA72CAFFAC800972421 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7BABA42CAFFAC800972421 /* ContentView.swift */; };
 		FB7BABA82CAFFAC800972421 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7BABA52CAFFAC800972421 /* MapView.swift */; };
 		FB7BABAB2CAFFBD200972421 /* facultades.json in Resources */ = {isa = PBXBuildFile; fileRef = FB7BABAA2CAFFBD200972421 /* facultades.json */; };
 		FB7BABAE2CAFFC2B00972421 /* Facultad.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7BABAD2CAFFC2B00972421 /* Facultad.swift */; };
@@ -42,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E894CA772CB889B6001EBB8C /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		FB7BAB762CAFFA7500972421 /* Usal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Usal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7BAB792CAFFA7500972421 /* UsalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsalApp.swift; sourceTree = "<group>"; };
 		FB7BAB7D2CAFFA7600972421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		FB7BAB942CAFFA7600972421 /* UsalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsalUITests.swift; sourceTree = "<group>"; };
 		FB7BAB962CAFFA7600972421 /* UsalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FB7BABA32CAFFAC800972421 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
-		FB7BABA42CAFFAC800972421 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB7BABA52CAFFAC800972421 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		FB7BABAA2CAFFBD200972421 /* facultades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = facultades.json; sourceTree = "<group>"; };
 		FB7BABAD2CAFFC2B00972421 /* Facultad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facultad.swift; sourceTree = "<group>"; };
@@ -148,8 +148,8 @@
 		FB7BABA92CAFFBA200972421 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E894CA772CB889B6001EBB8C /* FavoriteButton.swift */,
 				FB7BABA32CAFFAC800972421 /* CircleImage.swift */,
-				FB7BABA42CAFFAC800972421 /* ContentView.swift */,
 				FB7BABA52CAFFAC800972421 /* MapView.swift */,
 				FB7BABB12CAFFF4400972421 /* FacultadRow.swift */,
 				FB7BABB32CB000C400972421 /* FacultadList.swift */,
@@ -231,7 +231,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					FB7BAB752CAFFA7500972421 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -246,7 +246,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FB7BAB712CAFFA7500972421 /* Build configuration list for PBXProject "Usal" */;
+			buildConfigurationList = FB7BAB712CAFFA7500972421 /* Build configuration list for PBXProject "USAL" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -301,8 +301,8 @@
 				FB7BAB7A2CAFFA7500972421 /* UsalApp.swift in Sources */,
 				FB7BABB22CAFFF4400972421 /* FacultadRow.swift in Sources */,
 				FB7BABA82CAFFAC800972421 /* MapView.swift in Sources */,
+				E894CA782CB889B6001EBB8C /* FavoriteButton.swift in Sources */,
 				FB7BABAE2CAFFC2B00972421 /* Facultad.swift in Sources */,
-				FB7BABA72CAFFAC800972421 /* ContentView.swift in Sources */,
 				FB7BABB42CB000C400972421 /* FacultadList.swift in Sources */,
 				FB7BABA62CAFFAC800972421 /* CircleImage.swift in Sources */,
 				FB7BABB02CAFFEB400972421 /* ModelData.swift in Sources */,
@@ -379,6 +379,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -439,6 +440,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -465,6 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Usal/Preview Content\"";
+				DEVELOPMENT_TEAM = YPXJAYK574;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -493,6 +496,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Usal/Preview Content\"";
+				DEVELOPMENT_TEAM = YPXJAYK574;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -516,7 +520,6 @@
 		FB7BAB9E2CAFFA7600972421 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -535,7 +538,6 @@
 		FB7BAB9F2CAFFA7600972421 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -554,7 +556,6 @@
 		FB7BABA12CAFFA7600972421 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -571,7 +572,6 @@
 		FB7BABA22CAFFA7600972421 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -588,7 +588,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FB7BAB712CAFFA7500972421 /* Build configuration list for PBXProject "Usal" */ = {
+		FB7BAB712CAFFA7500972421 /* Build configuration list for PBXProject "USAL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FB7BAB982CAFFA7600972421 /* Debug */,

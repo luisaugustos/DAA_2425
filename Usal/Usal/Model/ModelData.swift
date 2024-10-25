@@ -10,7 +10,20 @@ Created by Luis Augusto Silva on 4/10/24.
 
 import Foundation
 
-var facultades: [Facultad] = load("facultades.json")
+
+@MainActor // Añade este atributo para asegurar que la actualización de UI ocurra en el hilo principal
+class ModelData: ObservableObject {
+    @Published var facultades: [Facultad] = []
+
+    init() {
+        loadFacultades()
+    }
+
+    private func loadFacultades() {
+        facultades = load("facultades.json")
+    }
+}
+
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
