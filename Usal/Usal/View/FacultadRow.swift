@@ -19,9 +19,9 @@ struct FacultadRow: View {
             
             Spacer()
             
-            if facultad.isFavorite {
+            if (facultad.isFavorite) {
                 Image(systemName: "star.fill")
-                    .foregroundStyle(.yellow)
+                    .foregroundColor(.yellow)
             }
         }
     }
@@ -29,6 +29,6 @@ struct FacultadRow: View {
 
 struct FacultadRow_Previews: PreviewProvider {
     static var previews: some View {
-        FacultadRow(facultad: ModelData().facultades[0])
+        FacultadRow(facultad: ModelData().facultades[2])
     }
 }
