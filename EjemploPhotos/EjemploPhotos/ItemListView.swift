@@ -44,6 +44,7 @@ struct ItemListView: View {
                 ScrollView {
                     LazyVGrid(columns: [GridItem(.adaptive(minimum: 100))]) {
                         /*
+                         Prueba de imagen de ejemplo
                          Image("example")
                         .resizable()
                         .aspectRatio(1, contentMode: .fit)
