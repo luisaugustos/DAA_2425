@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 //
 //  ImagePicker.swift
 //  EjemploPhotos
@@ -10,8 +10,7 @@ import SwiftUI
 import SwiftData
 
 
-=======
->>>>>>> 6b43d81d6ae970004450fd646f57043fa484706d
+
 // Image Picker para seleccionar una imagen de la galería o de la cámara
 struct ImagePicker: UIViewControllerRepresentable {
     @Binding var image: UIImage?
@@ -44,8 +43,5 @@ struct ImagePicker: UIViewControllerRepresentable {
             picker.dismiss(animated: true)
         }
     }
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> 6b43d81d6ae970004450fd646f57043fa484706d

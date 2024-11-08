@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 //
 //  ItemListView.swift
 //  EjemploPhotos
@@ -9,8 +9,6 @@
 import SwiftUI
 import SwiftData
 
-=======
->>>>>>> 6b43d81d6ae970004450fd646f57043fa484706d
 struct ItemListView: View {
     @Environment(\.modelContext) private var context
     @State private var items: [Item] = []
@@ -46,7 +44,6 @@ struct ItemListView: View {
             } else {
                 ScrollView {
                     LazyVGrid(columns: [GridItem(.adaptive(minimum: 100))]) {
-<<<<<<< HEAD
                         /*
                          Prueba de imagen de ejemplo
                          Image("example")
@@ -56,10 +53,6 @@ struct ItemListView: View {
                         ForEach(items, id: \.id) { item in
                             VStack {
                                 
-=======
-                        ForEach(items, id: \.id) { item in
-                            VStack {
->>>>>>> 6b43d81d6ae970004450fd646f57043fa484706d
                                 if let data = item.imageData, let uiImage = UIImage(data: data) {
                                     Image(uiImage: uiImage)
                                         .resizable()
@@ -91,7 +84,7 @@ struct ItemListView: View {
         }
     }
 }
-<<<<<<< HEAD
+
 
 //generate a fake preview to test the view with images
 
@@ -99,5 +92,4 @@ struct ItemListView: View {
     ItemListView()
         .modelContainer(for: Item.self, inMemory: true)
 }
-=======
->>>>>>> 6b43d81d6ae970004450fd646f57043fa484706d
+

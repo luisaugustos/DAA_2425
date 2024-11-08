@@ -5,7 +5,6 @@
 //  Created by Luis Augusto Silva on 8/11/24.
 //
 
-<<<<<<< HEAD
 import SwiftUI
 
 struct AddImageView: View {
@@ -95,34 +94,4 @@ struct AddImageView: View {
     AddImageView()
         .modelContainer(for: Item.self, inMemory: true)
 }
-    
-=======
 
-struct ExtractedView: View {
-    var body: some View {
-        HStack {
-            Button(action: {
-                sourceType = .photoLibrary
-                showImagePicker = true
-            }) {
-                Text("Galería de Fotos")
-                    .frame(width: 150, height: 50)
-                    .background(Color.gray.opacity(0.2))
-                    .cornerRadius(10)
-            }
-            .padding()
-            
-            Button(action: {
-                sourceType = .camera
-                showImagePicker = true
-            }) {
-                Text("Cámara")
-                    .frame(width: 150, height: 50)
-                    .background(Color.gray.opacity(0.2))
-                    .cornerRadius(10)
-            }
-            .padding()
-        }
-    }
-}
->>>>>>> 6b43d81d6ae970004450fd646f57043fa484706d
