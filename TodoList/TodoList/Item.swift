@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftData
+import SwiftUICore
 
 @Model
 final class Item {
@@ -14,7 +15,8 @@ final class Item {
     var text: String
     var isFavorited: Bool = false
     var timestamp: Date
-    
+    //var image: Image
+
     init(description: String, timestamp: Date) {
         self.text = description
         self.timestamp = timestamp
