@@ -13,8 +13,6 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                
-        
                 // Add a button here
                 Button(action: {
                     viewModel.fetchData()
