@@ -33,7 +33,7 @@ struct ContentView: View {
                         
                         DatePicker("Select Date", selection: $viewModel.selectedDate, displayedComponents: .date)
                             .datePickerStyle(CompactDatePickerStyle())
-                            .onChange(of: viewModel.selectedDate) { _ in
+                            .onChange(of: viewModel.selectedDate) {
                                 viewModel.fetchData()
                             }
                             .labelsHidden()
