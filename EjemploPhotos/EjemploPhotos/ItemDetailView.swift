@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //
 //  ItemDetailView.swift
 //  EjemploPhotos
@@ -7,6 +8,8 @@
 
 import SwiftUI
 
+=======
+>>>>>>> 6b43d81d6ae970004450fd646f57043fa484706d
 struct ItemDetailView: View {
     var item: Item
     
@@ -25,4 +28,8 @@ struct ItemDetailView: View {
         }
         .navigationTitle(item.name)
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6b43d81d6ae970004450fd646f57043fa484706d
